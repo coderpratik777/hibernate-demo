@@ -9,17 +9,19 @@ import org.hibernate.type.descriptor.java.LocalDateTimeJavaDescriptor;
 import com.pratiti.dao.CustomerAddressDao;
 import com.pratiti.entity.Address;
 import com.pratiti.entity.Customer;
+import com.pratiti.entity.Employee;
 
 public class CustomerApp {
 	public static void main(String[] args) {
 		
 		CustomerAddressDao dao=new CustomerAddressDao();
+		
 //		
 //		Customer cust =new Customer();
 //		cust.setName("sarthak");
 //		cust.setEmail("sarthak@gmail.com");
 //		cust.setDateOfBirth(LocalDate.of(2002,8,2));
-//		
+		
 //		customerDao.add(cust);
 		
 //		Customer customer=dao.fetchCustomer(10);
